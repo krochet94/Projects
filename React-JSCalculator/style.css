@@ -1,0 +1,96 @@
+h1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "dis dis dis dis"
+    "AC C div mul"
+    "syete otso nwebe min"
+    "kwatro singko sais add"
+    "uno dos tres eql"
+    "cero cero dot eql"
+    ;
+}
+
+.padButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+    color: crimson;
+    border: 1px solid crimson;
+    cursor: pointer;
+    font-size: 30px;
+    caret-color: transparent !important;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
+
+.padButton:hover{
+    color: black;
+    background-color: crimson;
+    transition: 0.2s ease-in-out;
+    border: 1px solid crimson;
+}
+
+.dis{
+    grid-area: dis;
+    background-color: black;
+    text-align: right;
+    border: 1px solid crimson;
+    font-size: 18px;
+    caret-color: transparent !important;
+}
+
+.dis input{
+    width: 100%;
+    color: dodgerblue;
+    text-align: right;
+    padding: 5px 20px;
+    background-color: black;
+    border: none;
+}
+
+.cero{
+    grid-area: cero;
+}
+
+.eql{
+    grid-area: eql;
+    background-color: dodgerblue;
+    color: black;
+    border: 1px solid dodgerblue;
+}
+
+.fnKeys{
+    color:dodgerblue;
+}
+
+.total{
+    padding: 10px 20px;
+    color: yellow;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.tm{
+    color: crimson;
+    text-align: right;
+}
