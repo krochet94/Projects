@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: crimson;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
+.dual-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 700px;
+    width: 100vw;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+button{
+    border: 1px solid black;
+}
+
+.time-sets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.tm{
+    color: crimson;
+    text-align: right;
+}
